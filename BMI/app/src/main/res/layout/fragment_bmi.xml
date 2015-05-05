@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".BMIActivity$PlaceholderFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Your input:"
+        android:id="@+id/txtView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHeight"
+        android:text="Your height:"
+        android:layout_below="@+id/txtView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMass"
+        android:text="Your mass:"
+        android:layout_below="@+id/txtHeight"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:inputType="number" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bereken BMI"
+        android:id="@+id/btnBereken"
+        android:layout_below="@+id/txtMass"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/txtMass" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Your BMI info:"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/btnBereken"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgImage"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/txtBMI"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Index:"
+        android:id="@+id/txtBMI"
+        android:layout_below="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Categorie:"
+        android:id="@+id/txtCategorie"
+        android:layout_below="@+id/txtBMI"
+        android:layout_toEndOf="@+id/imgImage"
+        android:layout_marginTop="31dp" />
+
+</RelativeLayout>

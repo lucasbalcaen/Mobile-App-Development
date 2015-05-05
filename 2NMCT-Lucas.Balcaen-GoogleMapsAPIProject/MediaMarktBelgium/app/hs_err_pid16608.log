@@ -1,0 +1,93 @@
+Event: 0.182 Thread 0x0000000014fb1000 nmethod 20 0x000000000299f790 code [0x000000000299f8e0, 0x000000000299fa70]
+Event: 0.190 Thread 0x0000000014fb1000   21       3       java.io.BufferedInputStream::getBufIfOpen (21 bytes)
+Event: 0.190 Thread 0x0000000014fb1000 nmethod 21 0x00000000029a1110 code [0x00000000029a1280, 0x00000000029a14a8]
+Event: 0.190 Thread 0x0000000014fb1000   22  s    3       java.io.BufferedInputStream::read (49 bytes)
+Event: 0.191 Thread 0x0000000014fb1000 nmethod 22 0x00000000029a1590 code [0x00000000029a1720, 0x00000000029a1c58]
+Event: 0.191 Thread 0x0000000014fb1000   23       3       java.io.DataInputStream::readUTF (501 bytes)
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (3 events):
+Event: 0.084 Thread 0x000000000263d800 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.defineClass(Ljava/lang/String;[BII)Ljava/lang/Class; name or signature does not match> (0x00000000eab0cdd8) thrown at [C:\workspace\8-2-build-windows-amd64-cygwin\jdk8u31\2394\hotspot\src\s	¡ÅS}gµ?
+Event: 0.084 Thread 0x000000000263d800 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.prefetchRead(Ljava/lang/Object;J)V name or signature does not match> (0x00000000eab0d068) thrown at [C:\workspace\8-2-build-windows-amd64-cygwin\jdk8u31\2394\hotspot\src\share\vm\prims\jni.‚Œ}§Ç?
+Event: 0.180 Thread 0x000000000263d800 Exception <a 'java/security/PrivilegedActionException'> (0x00000000eab5f8c8) thrown at [C:\workspace\8-2-build-windows-amd64-cygwin\jdk8u31\2394\hotspot\src\share\vm\prims\jvm.cpp, line 1312]
+
+Events (10 events):
+Event: 0.188 loading class sun/util/calendar/ZoneInfo
+Event: 0.189 loading class sun/util/calendar/ZoneInfo done
+Event: 0.189 loading class sun/util/calendar/ZoneInfoFile
+Event: 0.189 loading class sun/util/calendar/ZoneInfoFile done
+Event: 0.189 loading class sun/util/calendar/ZoneInfoFile$1
+Event: 0.189 loading class sun/util/calendar/ZoneInfoFile$1 done
+Event: 0.189 loading class java/io/DataInputStream
+Event: 0.189 loading class java/io/DataInput
+Event: 0.189 loading class java/io/DataInput done
+Event: 0.189 loading class java/io/DataInputStream done
+
+
+Dynamic libraries:
+0x00007ff76d9d0000 - 0x00007ff76da04000 	C:\Program Files\Java\jdk1.8.0_31\bin\java.exe
+0x00007ffc75330000 - 0x00007ffc754dc000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffc744d0000 - 0x00007ffc7460e000 	C:\WINDOWS\system32\KERNEL32.DLL
+0x00007ffc72890000 - 0x00007ffc729a5000 	C:\WINDOWS\system32\KERNELBASE.dll
+0x00007ffc70f20000 - 0x00007ffc70fae000 	C:\WINDOWS\system32\apphelp.dll
+0x00007ffc5c6f0000 - 0x00007ffc5c743000 	C:\WINDOWS\AppPatch\AppPatch64\AcGenral.DLL
+0x00007ffc74e40000 - 0x00007ffc74eea000 	C:\WINDOWS\system32\msvcrt.dll
+0x00007ffc722b0000 - 0x00007ffc722de000 	C:\WINDOWS\SYSTEM32\SspiCli.dll
+0x00007ffc729b0000 - 0x00007ffc72a04000 	C:\WINDOWS\system32\SHLWAPI.dll
+0x00007ffc74350000 - 0x00007ffc744c7000 	C:\WINDOWS\system32\USER32.dll
+0x00007ffc75190000 - 0x00007ffc75324000 	C:\WINDOWS\system32\ole32.dll
+0x00007ffc72dc0000 - 0x00007ffc742d8000 	C:\WINDOWS\system32\SHELL32.dll
+0x00007ffc71a20000 - 0x00007ffc71a41000 	C:\WINDOWS\SYSTEM32\USERENV.dll
+0x00007ffc72b60000 - 0x00007ffc72c0a000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x00007ffc5fb80000 - 0x00007ffc5fb9e000 	C:\WINDOWS\SYSTEM32\MPR.dll
+0x00007ffc72a10000 - 0x00007ffc72b51000 	C:\WINDOWS\system32\RPCRT4.dll
+0x00007ffc74d20000 - 0x00007ffc74d79000 	C:\WINDOWS\SYSTEM32\sechost.dll
+0x00007ffc74b00000 - 0x00007ffc74d11000 	C:\WINDOWS\SYSTEM32\combase.dll
+0x00007ffc74fc0000 - 0x00007ffc75111000 	C:\WINDOWS\system32\GDI32.dll
+0x00007ffc72480000 - 0x00007ffc72495000 	C:\WINDOWS\SYSTEM32\profapi.dll
+0x00007ffc708d0000 - 0x00007ffc70982000 	C:\WINDOWS\SYSTEM32\SHCORE.dll
+0x00007ffc74ac0000 - 0x00007ffc74af6000 	C:\WINDOWS\system32\IMM32.DLL
+0x00007ffc74670000 - 0x00007ffc747c2000 	C:\WINDOWS\system32\MSCTF.dll
+0x00007ffc6fea0000 - 0x00007ffc7011b000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17415_none_6240486fecbd8abb\COMCTL32.dll
+0x0000000073460000 - 0x0000000073532000 	C:\Program Files\Java\jdk1.8.0_31\jre\bin\msvcr100.dll
+0x00000000737e0000 - 0x000000007403a000 	C:\Program Files\Java\jdk1.8.0_31\jre\bin\server\jvm.dll
+0x00007ffc693c0000 - 0x00007ffc693c9000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffc6dfc0000 - 0x00007ffc6dfe2000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffc749f0000 - 0x00007ffc749f7000 	C:\WINDOWS\system32\PSAPI.DLL
+0x00007ffc75120000 - 0x00007ffc7517a000 	C:\WINDOWS\system32\WS2_32.dll
+0x00007ffc6e000000 - 0x00007ffc6e02a000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007ffc749b0000 - 0x00007ffc749b9000 	C:\WINDOWS\system32\NSI.dll
+0x00007ffc72840000 - 0x00007ffc7288f000 	C:\WINDOWS\SYSTEM32\cfgmgr32.dll
+0x00007ffc71170000 - 0x00007ffc71198000 	C:\WINDOWS\SYSTEM32\DEVOBJ.dll
+0x00000000747e0000 - 0x00000000747ef000 	C:\Program Files\Java\jdk1.8.0_31\jre\bin\verify.dll
+0x00000000747b0000 - 0x00000000747d8000 	C:\Program Files\Java\jdk1.8.0_31\jre\bin\java.dll
+0x0000000074790000 - 0x00000000747a6000 	C:\Program Files\Java\jdk1.8.0_31\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Xmx1024M -Dfile.encoding=windows-1252 -Duser.country=BE -Duser.language=nl -Duser.variant 
+java_command: com.android.dx.command.Main --dex --output C:\NMCT\Semester 4\MobileAppDevelopment\OefeningenOpnieuw\MediaMarktBelgium\app\build\intermediates\pre-dexed\debug\classes-37446902255f23299ded454b71c655824dc673cc.jar C:\NMCT\Semester 4\MobileAppDevelopment\OefeningenOpnieuw\MediaMarktBelgium\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.3.0\classes.jar
+java_class_path (initial): C:\Users\Lucas\AppData\Local\Android\sdk\build-tools\22.0.1\lib\dx.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8.1 , 64 bit Build 9600 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, clmul, erms, ht, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 8318456k(1195552k free), swap 11464184k(5060k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.31-b07) for windows-amd64 JRE (1.8.0_31-b13), built on Dec 17 2014 21:00:28 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Sun May 03 20:33:21 2015
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

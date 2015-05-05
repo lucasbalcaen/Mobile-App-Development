@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextWinkel"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Winkelnaam" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="5"
+        android:id="@+id/textViewHuisNr"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/editTextWinkel"
+        android:layout_toRightOf="@+id/textViewStraat"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Straat"
+        android:id="@+id/textViewStraat"
+        android:layout_below="@+id/editTextWinkel"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Heestert"
+        android:id="@+id/textViewStad"
+        android:layout_below="@+id/textViewStraat"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/textViewPostcode"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="8551"
+        android:id="@+id/textViewPostcode"
+        android:layout_below="@+id/textViewStraat"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terug naar overzicht"
+        android:id="@+id/btnOverzicht"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
